@@ -8,7 +8,7 @@ class SendEmail:
     global password
     email_host = "smtp.163.com"
     send_user = "********@163.com"
-    password = "c99335" #用授权码
+    password = "*****" #用授权码
 
     def send_mail(self, user_list, sub, content):
         user = "Mushishi" + "<" + send_user + ">"
